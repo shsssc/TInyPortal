@@ -22,19 +22,28 @@ A Web GL based rendering engine that support "portal" effects.
 
 ```javascript
 const island3 = await 
-	loadObj("island3.obj", "island3Color.png", 2);//load obj by AJAX
+	loadObj("island3.obj", "island3Color.png", 2);//load obj with AJAX
 s.addObject(island3);
 ```
 
 
 
-![1](https://github.com/shsssc/TinyPortal/blob/main/images/1.gif?raw=true)
+![1](https://github.com/shsssc/TinyPortal/raw/main/images/1.gif?raw=true)
 
 
 
 ### "Portals"
 
+![2](https://github.com/shsssc/TinyPortal/raw/main/images/2.gif?raw=true)
 
+## Demo
+
+The  [demo](https://shsssc.github.io/TinyPortal/dist/index.html) contains three islands inter-connected by portals. Click the screen to lock your mouse inside the browser and use "WASD" together with mouse to move in the scene.
+
+Two visual effects implemented with portals are also demonstrated:
+
+1. In the pink island, a tunnel through the mountain seems very long in the outside but is very short if travel from inside.
+2. In the observatory island, inside the building, it seems that the square room is divided into four small rooms. However, moving inside, it will shows that there  are actually 8 rooms.
 
 ## Install
 
@@ -42,7 +51,7 @@ Run `npm install` to install dependencies.
 
 ## Usage
 
-Please see "main.js" as an example of usage. The demo is also hosted at ...
+Please see "main.js" as an example of usage. The [demo](https://shsssc.github.io/TinyPortal/dist/index.html) shows the outcome of [main.js](https://github.com/shsssc/TinyPortal/blob/main/src/js/main.js). 
 
 ## License
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
