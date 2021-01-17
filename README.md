@@ -28,7 +28,7 @@ s.addObject(island3);
 
 
 
-![1](images\1.gif)
+![1](https://github.com/shsssc/TinyPortal/blob/main/images/1.gif?raw=true)
 
 
 
